@@ -58,4 +58,6 @@ Each architecture is evaluated based on sensitivity and specificity, ensuring ro
 
 
 # Conclusion
-Model gave 90% accuracy for Medical Insurance Amount Prediction using XGBoost. This project demonstrates the effectiveness of machine learning, particularly XGBoost, in accurately predicting medical insurance costs based on key factors. It aims to enhance cost transparency and planning, benefiting both insurers and customers.
+This project explores speaker identification using Convolutional Neural Networks (CNN) and its hybrid architectures, including Transformer Encoders and BiGRU. The results demonstrate that advanced architectures significantly improve sensitivity and specificity across different speaker classes. CNN combined with BiGRU showed the highest accuracy, highlighting the benefits of integrating sequential processing for speaker recognition. Future improvements may involve optimizing model hyperparameters, incorporating more diverse datasets, and leveraging self-supervised learning techniques to enhance performance. This research contributes to the development of robust and scalable speaker identification systems.
+
+
