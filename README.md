@@ -22,7 +22,7 @@ Efficient in spatial feature extraction but lacks temporal modeling.
 Incorporates self-attention to capture global dependencies in speech.
 
 Improves speaker identification by focusing on important time frames.
-![image](Outputs/photo_2025-02-27_16-25-44.jpg)
+![image](images/tran.jpg)
 **C)CNN + BiGRU (Bidirectional Gated Recurrent Unit)**
 
 Enhances sequential modeling by processing speech in both forward and backward directions.
