@@ -15,7 +15,7 @@ Extracts speaker-specific features from Mel-spectrograms.
 
 Efficient in spatial feature extraction but lacks temporal modeling.
 
-![image](Outputs/photo_2025-02-27_16-25-44.jpg)
+![image](images/base.jpg)
 
 **B)CNN + Transformer Encoder**
 
