@@ -2,14 +2,12 @@
 This project uses deep learning for speaker identification with CNN, CNN+Transformer, and CNN+BiGRU models trained on the Mozilla Common Voice dataset. Performance is evaluated using sensitivity and specificity, highlighting the effectiveness of sequential models in improving speaker recognition.
 # Overview
 This project focuses on **speaker identification using deep learning**, evaluating three architectures: **CNN, CNN+Transformer Encoder, and CNN+BiGRU**. The models are trained on the **Mozilla Common Voice dataset** with Mel-spectrograms as input. Performance is analyzed based on **sensitivity and specificity**, highlighting the impact of sequential learning. The findings contribute to optimizing deep learning models for robust speaker recognition in real-world applications.
-# Dataset Description
-The dataset which is largely sourced from Kaggle and other open datasets contains relative data for 1,338 people who were subject to possible medical insurance costs.The most important are: 
-1. Age: numerical; elderly people majorly incur higher age incidence expenses in medical care. 
-2. Gender: categorical; male or female whom sometimes the insurance companies use to measure risk differently. 
-3. BMI: numerical; body mass index which affects all who a person’s weight is deemed too large and associated with many health risks hence higher insurance rates. 
-4. Children (numerical): The number of people being cared for; having numerous children will raise the costs associated with health care for the entire family. 
-5. Smoker(categorical): A yes/no question on whether the person smokes or not with a positive correlation with the cost of healthcare. 
-6. Region(categorical): The area in which they live (northeast, northwest, southeast, southwest) possibly where they live determines the specific health risk and premium matching their area.
+# Literature review
+Speaker identification has evolved from traditional machine learning techniques to deep learning-based approaches for improved accuracy and robustness. Early methods relied on handcrafted feature extraction techniques such as Mel-Frequency Cepstral Coefficients (MFCCs), Perceptual Linear Prediction (PLP), and i-vectors. These features were processed using models like Gaussian Mixture Models (GMMs) and Hidden Markov Models (HMMs) for speaker classification. While effective, these models struggled with noise, variations in speech, and feature extraction complexity, limiting their real-world applications .
+
+Deep learning has significantly enhanced speaker identification by learning feature representations directly from raw audio. Convolutional Neural Networks (CNNs) have been widely adopted due to their ability to capture spatial patterns from spectrogram representations, reducing reliance on manually crafted features. However, CNNs alone do not capture temporal dependencies in speech, leading to the adoption of hybrid architectures that integrate CNNs with sequential models. Bidirectional Gated Recurrent Units (BiGRUs) and Transformer encoders have been introduced to improve long-term feature dependencies in speaker recognition . Recent studies show that these models enhance classification performance, especially in challenging environments.
+
+This study compares three architectures for speaker identification: Baseline CNN, CNN with Transformer Encoder, and CNN with BiGRU, focusing on their performance in terms of sensitivity and specificity rather than just accuracy. Sensitivity measures the model’s ability to correctly identify a speaker, while specificity evaluates how well it avoids false identifications. The research highlights how sequential models like BiGRU outperform pure CNNs, demonstrating better generalization and robustness in speaker classification. The findings emphasize the importance of hybrid deep learning architectures in advancing real-world speaker recognition systems.
 # Some Screenshots
 
 • The percentages in each segment represent the proportion of data points in that category. <br>
