@@ -36,10 +36,7 @@ Each architecture is evaluated based on sensitivity and specificity, ensuring ro
 ![image](Outputs/photo_2025-02-27_16-25-30.jpg)
 
 
-# Feature Importance
 
-• Importance of individual features <br>
-![image](Outputs/photo_2025-02-27_16-40-59.jpg)
 
 
 
@@ -59,8 +56,6 @@ Each architecture is evaluated based on sensitivity and specificity, ensuring ro
 | 7     | 0.7297                  | 0.9409                  | 0.0256                                  | 0.9702                                  | 0.6410                    | 0.9404                    |
 | 8     | 0.9487                  | 0.7447                  | 1.0000                                  | 0.9958                                  | 1.0000                    | 0.9916                    |
 
-• HeatMap
-![image](Outputs/photo_2025-02-27_16-25-50.jpg)
 
 # Conclusion
 Model gave 90% accuracy for Medical Insurance Amount Prediction using XGBoost. This project demonstrates the effectiveness of machine learning, particularly XGBoost, in accurately predicting medical insurance costs based on key factors. It aims to enhance cost transparency and planning, benefiting both insurers and customers.
