@@ -9,7 +9,7 @@ Deep learning has significantly enhanced speaker identification by learning feat
 
 This study compares three architectures for speaker identification: Baseline CNN, CNN with Transformer Encoder, and CNN with BiGRU, focusing on their performance in terms of sensitivity and specificity rather than just accuracy. Sensitivity measures the model’s ability to correctly identify a speaker, while specificity evaluates how well it avoids false identifications. The research highlights how sequential models like BiGRU outperform pure CNNs, demonstrating better generalization and robustness in speaker classification. The findings emphasize the importance of hybrid deep learning architectures in advancing real-world speaker recognition systems.
 # Architectures Used
-A)CNN (Convolutional Neural Network)
+**A)CNN (Convolutional Neural Network)**
 
 Extracts speaker-specific features from Mel-spectrograms.
 
@@ -17,13 +17,13 @@ Efficient in spatial feature extraction but lacks temporal modeling.
 
 ![image](Outputs/photo_2025-02-27_16-25-44.jpg)
 
-B)CNN + Transformer Encoder
+**B)CNN + Transformer Encoder**
 
 Incorporates self-attention to capture global dependencies in speech.
 
 Improves speaker identification by focusing on important time frames.
 ![image](Outputs/photo_2025-02-27_16-25-44.jpg)
-C)CNN + BiGRU (Bidirectional Gated Recurrent Unit)
+**C)CNN + BiGRU (Bidirectional Gated Recurrent Unit)**
 
 Enhances sequential modeling by processing speech in both forward and backward directions.
 
