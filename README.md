@@ -1,15 +1,7 @@
 # Enhancing-Speaker-Identification-using-CNN-and-CRNN-Models
 This project uses deep learning for speaker identification with CNN, CNN+Transformer, and CNN+BiGRU models trained on the Mozilla Common Voice dataset. Performance is evaluated using sensitivity and specificity, highlighting the effectiveness of sequential models in improving speaker recognition.
 # Overview
-Health insurance cost prediction project describes the complete process for forecasting 
-medical costs and aims at developing the optimal medical cost estimate for an individual or a patient in the future 
-becoming robust and accurate. Actuarial modeling has emerged as one of the most vital protocols in the health 
-insurance industry as it aids in the determination of effective and competitive premiums that can facilitate the 
-retention and attracting of members Most of these issues are complex in nature since they involve a variety of 
-factors, such as client population’s structure, health status, and lifestyles, as well as the determinants of medical 
-service resources. Additional factors such as the breadth of coverage offered, type of plan, deductibles, and 
-customer age also affect cost estimation. Efficiency and clarity of such processes cannot be understated especially 
-after the COVID-19 pandemic.
+This project focuses on **speaker identification using deep learning**, evaluating three architectures: **CNN, CNN+Transformer Encoder, and CNN+BiGRU**. The models are trained on the **Mozilla Common Voice dataset** with Mel-spectrograms as input. Performance is analyzed based on **sensitivity and specificity**, highlighting the impact of sequential learning. The findings contribute to optimizing deep learning models for robust speaker recognition in real-world applications.
 # Dataset Description
 The dataset which is largely sourced from Kaggle and other open datasets contains relative data for 1,338 people who were subject to possible medical insurance costs.The most important are: 
 1. Age: numerical; elderly people majorly incur higher age incidence expenses in medical care. 
